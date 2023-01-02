@@ -12,14 +12,14 @@ android {
 
     defaultConfig {
         applicationId "com.newsheadlines.app"
-        minSdk 21
+        minSdk 26
         targetSdk 32
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField "String", "NEWS_API_KEY", "\"7c0189d1192844a6be70d9173525375b\""
-        buildConfigField "String", "BASE_URL", "\"https://newsapi.org/v2/top-headlines\""
+        buildConfigField "String", "BASE_URL", "\"https://newsapi.org/v2/top-headlines/\""
     }
 
     buildTypes {
@@ -42,7 +42,7 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.core:core-ktx:1.9.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
@@ -66,6 +66,10 @@ dependencies {
 
     implementation("com.google.dagger:hilt-android:2.44")
     kapt("com.google.dagger:hilt-android-compiler:2.44")
+
+
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
 }
 kapt {
     correctErrorTypes = true

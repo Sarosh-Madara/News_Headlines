@@ -28,13 +28,12 @@ class SplashFragment : Fragment(R.layout.fragment_splash){
 
         val versionName: String = BuildConfig.VERSION_NAME
 
-        binding.textVersion.text = "v${versionName}"
+        binding.textVersion.text = String.format("v%s",versionName)
 
         val timer = Timer()
         timerTask = object : TimerTask() {
             override fun run() {
                 lifecycleScope.launch(Dispatchers.Main) {
-
                     findNavController().navigate(SplashFragmentDirections.actionSplashFragmentToNewsListFragment())
                 }
             }

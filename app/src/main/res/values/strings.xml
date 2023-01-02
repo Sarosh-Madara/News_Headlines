@@ -2,4 +2,8 @@
     <string name="app_name">News Headlines</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news_item_image_desc">news_item_image_desc</string>
+    <string name="no_news_image">no news image</string>
+    <string name="no_news_article_available">No news article available</string>
+    <string name="splash_app_logo">splash app logo</string>
 </resources>

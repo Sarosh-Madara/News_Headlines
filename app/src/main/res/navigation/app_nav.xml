@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/newsListFragment"
-        android:name="com.newsheadlines.app.NewsListFragment"
+        android:name="com.newsheadlines.app.newslist.NewsListFragment"
         android:label="fragment_news_list"
         tools:layout="@layout/fragment_news_list" />
 
