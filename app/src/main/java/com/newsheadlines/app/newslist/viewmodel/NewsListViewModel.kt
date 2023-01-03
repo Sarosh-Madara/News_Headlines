@@ -17,7 +17,8 @@ import javax.inject.Inject
 class NewsListViewModel @Inject constructor(val newsListRepository: INewsListRepository) : ViewModel(){
 
 
-    private val _uiState = MutableStateFlow<NewsListUIState>(NewsListUIState.Empty)
+    private val _uiState = MutableStateFlow<NewsListUIState
+            >(NewsListUIState.Empty)
     val uiState : StateFlow<NewsListUIState> = _uiState.asStateFlow()
 
     fun loadTopNews(source: String) = viewModelScope.launch {

@@ -35,6 +35,8 @@
 
     <ImageView
         android:id="@+id/imgNewsItem"
+        tools:src="@drawable/ic_app"
+        tools:scaleType="fitCenter"
         android:layout_width="match_parent"
         android:contentDescription="@string/news_item_image_desc"
         android:scaleType="fitXY"
@@ -51,6 +53,7 @@
             android:paddingHorizontal="@dimen/_10sdp"
             android:paddingVertical="@dimen/_3sdp"
             android:background="@color/black"
+            tools:text="@string/dummy_text_bbc"
             android:textSize="@dimen/_9sdp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -62,6 +65,7 @@
             android:textColor="@color/white"
             android:paddingHorizontal="@dimen/_10sdp"
             android:paddingVertical="@dimen/_3sdp"
+            tools:text="@string/author_eve_dummy"
             android:background="@color/orange"
             android:layout_marginStart="@dimen/_10sdp"
             android:layout_width="wrap_content"

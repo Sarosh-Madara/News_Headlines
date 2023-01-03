@@ -6,4 +6,8 @@
     <string name="no_news_image">no news image</string>
     <string name="no_news_article_available">No news article available</string>
     <string name="splash_app_logo">splash app logo</string>
+    <string name="dummy_news_desc">Gunjan Patidar is the fourth Zomato co-founder to resign from the Indian food delivery firm, whose shares are down over 55% in a year.</string>
+    <string name="dummy_news_content">Yet another Zomato co-founder leaves the firm</string>
+    <string name="dummy_text_bbc">BBC</string>
+    <string name="author_eve_dummy">Author: Eve</string>
 </resources>

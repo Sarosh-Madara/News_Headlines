@@ -15,7 +15,7 @@ import com.newsheadlines.app.util.changeDateFormat
 import com.newsheadlines.app.util.gone
 import com.newsheadlines.app.util.loadImageFromURL
 
-class NewsListAdapter(private val context: Context, private val dataSet: Array<Article>) :
+class NewsListAdapter(private val context: Context, private val dataSet: Array<Article>, private val onNewsItemClick: (article : Article) -> Unit) :
     RecyclerView.Adapter<NewsListAdapter.ViewHolder>() {
 
     /**
@@ -67,6 +67,10 @@ class NewsListAdapter(private val context: Context, private val dataSet: Array<A
             context.loadImageFromURL(dataSet[position].urlToImage, viewHolder.imgNewsItem)
         } else {
             viewHolder.imgNewsItem.gone()
+        }
+
+        viewHolder.itemView.setOnClickListener {
+            onNewsItemClick.invoke(dataSet[position])
         }
 
     }
