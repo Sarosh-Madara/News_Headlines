@@ -39,7 +39,7 @@ class NewsListFragment : Fragment(R.layout.fragment_news_list){
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        viewModel.loadTopNews("techcrunch")
+        viewModel.loadTopNews("bbc")
         observeNews()
 
     }
