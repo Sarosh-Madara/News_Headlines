@@ -76,7 +76,7 @@
             android:id="@+id/txtDate"
             android:textColor="@color/black"
             android:paddingHorizontal="@dimen/_20sdp"
-            android:visibility="gone"
+            android:visibility="visible"
             android:paddingVertical="@dimen/_3sdp"
             android:layout_marginStart="@dimen/_10sdp"
             android:layout_width="wrap_content"

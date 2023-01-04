@@ -12,7 +12,9 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-
+/*
+* ViewModel for News list screen
+* */
 @HiltViewModel
 class NewsListViewModel @Inject constructor(val newsListRepository: INewsListRepository) : ViewModel(){
 
@@ -32,6 +34,15 @@ class NewsListViewModel @Inject constructor(val newsListRepository: INewsListRep
         }else {
             _uiState.value = NewsListUIState.Loaded(news.articles)
         }
+    }
+
+    fun articleList(newsList: List<Article>?): Array<Article> {
+
+        if(newsList == null || newsList.isEmpty() ){
+            return emptyArray()
+        }
+
+        return newsList.toTypedArray()
     }
 
 }

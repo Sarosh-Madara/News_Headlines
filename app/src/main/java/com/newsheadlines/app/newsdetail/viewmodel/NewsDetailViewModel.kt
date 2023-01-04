@@ -6,6 +6,9 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
+/*
+* ViewModel for News detail screen
+* */
 class NewsDetailViewModel : ViewModel() {
 
     private val _uiState = MutableStateFlow<NewsDetailUIState>(NewsDetailUIState.Empty)

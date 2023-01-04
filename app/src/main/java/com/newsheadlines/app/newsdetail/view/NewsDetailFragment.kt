@@ -17,11 +17,11 @@ import com.newsheadlines.app.util.*
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class NewsDetailFragment : Fragment(R.layout.fragment_news_detail){
+class NewsDetailFragment : Fragment(R.layout.fragment_news_detail) {
 
     private lateinit var binding: FragmentNewsDetailBinding
 
-    private val args : NewsDetailFragmentArgs by navArgs()
+    private val args: NewsDetailFragmentArgs by navArgs()
 
     private val viewModel by viewModels<NewsDetailViewModel>()
 
@@ -30,8 +30,8 @@ class NewsDetailFragment : Fragment(R.layout.fragment_news_detail){
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentNewsDetailBinding.inflate(inflater,container,false)
-        
+        binding = FragmentNewsDetailBinding.inflate(inflater, container, false)
+
         return binding.root
     }
 
@@ -49,10 +49,13 @@ class NewsDetailFragment : Fragment(R.layout.fragment_news_detail){
         binding.txtDescription.text = articleModel.description
         binding.txtAuthor.text = articleModel.author
         binding.txtSource.text = articleModel.source.name
+        binding.txtNewsSource.text = articleModel.source.name
         binding.txtContent.text = articleModel.content
-        binding.txtDate.text = articleModel.publishedAt.changeDateFormat(
-            Constants.DATE_FORMAT_YMD_T_HMS_Z,
-            Constants.DATE_FORMAT_M_D
+        binding.txtDate.text = String.format(
+            "Published at: %s", articleModel.publishedAt.changeDateFormat(
+                Constants.DATE_FORMAT_YMD_T_HMS_Z,
+                Constants.DATE_FORMAT_M_D
+            )
         )
         if (articleModel.urlToImage.isNotBlank()) {
             requireContext().loadImageFromURL(articleModel.urlToImage, binding.imgNewsItem)

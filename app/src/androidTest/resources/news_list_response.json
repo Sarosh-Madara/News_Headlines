@@ -1,0 +1,136 @@
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Amanda Silberling",
+      "title": "Microsoft now has its first official union in the U.S.",
+      "description": "At ZeniMax, a Microsoft-owned gaming studio, 300 quality assurance (QA) testers have voted to unionize, marking the largest U.S. gaming union.",
+      "url": "https://techcrunch.com/2023/01/03/microsoft-zenimax-union/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/01/zenimax-microsoft.jpg?resize=1200,800",
+      "publishedAt": "2023-01-03T19:06:51Z",
+      "content": "At ZeniMax, a Microsoft-owned gaming studio, 300 quality assurance (QA) testers have voted to unionize. This marks Microsoft’s first official union in the U.S., as well as the biggest gaming union in… [+2981 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Rebecca Szkutak",
+      "title": "Two CEOs is better than one with Henrique Dubugras from Brex",
+      "description": "Henrique talks about what it has been like working as a co-CEO and how the company endured changes and layoffs this year.",
+      "url": "https://techcrunch.com/2023/01/03/two-ceos-is-better-than-one-with-henrique-dubugras-from-brex/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/05/found-2022-featured.jpg?resize=1200,675",
+      "publishedAt": "2023-01-03T19:00:15Z",
+      "content": "Welcome back to Found, where we get the stories behind the startups.\r\nThis week Darrell and Becca are joined by Brex co-founder and co-CEO Henrique Dubugras to chat about his corporate credit card an… [+601 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Carly Page",
+      "title": "Hackers claim ransomware attack on Los Angeles housing authority",
+      "description": "LockBit is threatening to publish stolen files, including data on families who sought housing assistance from city authorities.",
+      "url": "https://techcrunch.com/2023/01/03/hackers-claims-ransomware-attack-on-los-angeles-housing-authority/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/01/GettyImages-1449169360.jpg?resize=1200,785",
+      "publishedAt": "2023-01-03T18:36:49Z",
+      "content": "The Housing Authority of the City of Los Angeles, or HACLA, has confirmed it is investigating a cybersecurity incident shortly after the LockBit ransomware gang claimed responsibility for a cyberatta… [+1991 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Ingrid Lunden",
+      "title": "Intel unveils high-end 13th-gen 24-core processors plus N-series workhorse to fill the the Pentium and Celeron gap",
+      "description": "The Vegas show remains a key moment for Intel as a bellwether for the industry and the company itself in the consumer electronics patheon.",
+      "url": "https://techcrunch.com/2023/01/03/intel-unveils-high-end-13th-gen-24-core-processors-plus-n-series-workhorse-to-fill-the-the-pentium-and-celeron-gap/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/01/800.jpeg",
+      "publishedAt": "2023-01-03T18:29:10Z",
+      "content": "Intel is taking a more subdued approach to CES these days — forgoing a splashy event staged in a big hotel showroom in the wake of Covid-19, and a wider change in PR strategy after years of making bu… [+7355 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Walter Thompson",
+      "title": "TechCrunch+ roundup: Normalizing down rounds, 2023 climate trends, term sheet basics",
+      "description": "Everyone gets wet when it rains, but accepting a down round allows founders to continue building their businesses.",
+      "url": "https://techcrunch.com/2023/01/03/techcrunch-roundup-normalizing-down-rounds-2023-climate-trends-term-sheet-basics/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/01/GettyImages-1397243649.jpg?resize=1200,801",
+      "publishedAt": "2023-01-03T18:27:36Z",
+      "content": "The “Pineapple Express” that dropped several inches of rain over the Bay Area last week left the ground saturated. The next storm front expected to arrive tomorrow is expected to bring disruption and… [+6186 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Tim De Chant",
+      "title": "Here’s what USV plans to do in 2023 with its $200M climate fund",
+      "description": "With so much dry powder, what are Union Square Ventures' plans for deployment?",
+      "url": "https://techcrunch.com/2023/01/03/heres-what-usv-plans-to-do-in-2023-with-its-200m-climate-fund/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1328659820.jpg?resize=1200,675",
+      "publishedAt": "2023-01-03T18:03:54Z",
+      "content": "Downturn be damned last month, Union Square Ventures announced that it had raised a $200 million climate fund, less than two years after raising its first climate fund.\r\nThe new fund is certain to ad… [+908 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Natasha Mascarenhas",
+      "title": "Here's how you described the tech industry's 2022 in a headline",
+      "description": "As part of our end of the year coverage, the Equity podcast team asked listeners to write a headline that represents 2022 in tech.",
+      "url": "https://techcrunch.com/2023/01/03/heres-how-you-described-the-tech-industrys-2022-in-a-headline/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/11/GettyImages-77357279.jpg?resize=1200,818",
+      "publishedAt": "2023-01-03T17:54:55Z",
+      "content": "As readers know, we have funwith headlineson this site. But clearly, so do all of you. As part of our end of the year coverage, the Equity podcast team asked listeners to write a headline that repres… [+3811 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "techcrunch"
+      },
+      "author": "Romain Dillet",
+      "title": "Nvidia upgrades GeForce Now with RTX 4080 performance for premium users",
+      "description": "Nvidia announced some new features for its cloud gaming service during its virtual CES press conference. The company is upgrading its premium plan by adding new servers with better hardware components. Users on the $19.99 plan should expect better performance…",
+      "url": "https://techcrunch.com/2023/01/03/nvidia-upgrades-geforce-now-with-rtx-4080-performance-for-premium-users/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/01/geforce-rtx-4070-ti-out-january-5-key-visual.jpg?resize=1200,675",
+      "publishedAt": "2023-01-03T17:12:34Z",
+      "content": "Nvidia announced some new features for its cloud gaming service during its virtual CES press conference. The company is upgrading its premium plan by adding new servers with better hardware component… [+2414 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "techcrunch"
+      },
+      "author": "Ram Iyer",
+      "title": "3 ways PE firms can ensure relevant due diligence for M&A targets ahead of a recession",
+      "description": "It's critical for due diligence providers to analyze a company's business segments and product lines to identify the range of its exposure to potential issues.",
+      "url": "https://techcrunch.com/2023/01/03/how-pe-firms-can-ensure-relevant-due-diligence-for-ma-targets-ahead-of-a-recession/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/01/GettyImages-169265206.jpg?resize=1200,900",
+      "publishedAt": "2023-01-03T15:19:30Z",
+      "content": "Economic uncertainty, market volatility, rising interest rates, inflation and the ongoing Ukraine-Russia conflict affected the M&amp;A market the third quarter of 2022 to the point that deal volumes … [+2443 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "techcrunch"
+      },
+      "author": "Rebecca Bellan",
+      "title": "Tesla delivers 405,278 vehicles in Q4, missing Wall Street expectations",
+      "description": "In Q4 2022, Tesla delivered 405,278 and produced 439,701 vehicles. Annually, Tesla delivered 1.31 million and produced 1.37 million vehicles.",
+      "url": "https://techcrunch.com/2023/01/02/tesla-delivers-405278-vehicles-in-q4-missing-wall-street-expectations/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/10/tesla-Model-3-Performance-Midnight-Silver-Tarmac-Motion.jpg?resize=1200,675",
+      "publishedAt": "2023-01-02T19:18:06Z",
+      "content": "Tesla reported Sunday 405,278 vehicles delivered in the fourth quarter of 2022. While the automaker hit  a record number of deliveries, it came in shy of Wall Streets expectations of around 420,000 t… [+1823 chars]"
+    }
+  ]
+}

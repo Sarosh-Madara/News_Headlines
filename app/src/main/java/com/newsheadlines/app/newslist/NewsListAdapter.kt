@@ -15,6 +15,9 @@ import com.newsheadlines.app.util.changeDateFormat
 import com.newsheadlines.app.util.gone
 import com.newsheadlines.app.util.loadImageFromURL
 
+/**
+ * Adapter for the news list. Has a reference to the [NewsListFragment] to send actions back to it.
+ */
 class NewsListAdapter(private val context: Context, private val dataSet: Array<Article>, private val onNewsItemClick: (article : Article) -> Unit) :
     RecyclerView.Adapter<NewsListAdapter.ViewHolder>() {
 

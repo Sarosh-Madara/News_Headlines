@@ -19,6 +19,7 @@
             android:paddingHorizontal="@dimen/_10sdp"
             android:textColor="@color/white"
             android:text="@string/app_name"
+            android:textSize="@dimen/_20sdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
@@ -27,6 +28,7 @@
 
 
     <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -77,6 +79,7 @@
                     android:padding="@dimen/_10sdp">
 
                     <TextView
+                        android:visibility="gone"
                         android:id="@+id/txtSource"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -91,26 +94,24 @@
                         android:id="@+id/txtAuthor"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="@dimen/_10sdp"
                         android:background="@color/orange"
                         android:paddingHorizontal="@dimen/_10sdp"
                         android:paddingVertical="@dimen/_3sdp"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_9sdp" />
 
-                    <TextView
-                        android:id="@+id/txtDate"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="@dimen/_10sdp"
-                        android:paddingHorizontal="@dimen/_20sdp"
-                        android:paddingVertical="@dimen/_3sdp"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_9sdp"
-                        android:visibility="gone" />
 
                 </LinearLayout>
 
+
+                <TextView
+                    android:id="@+id/txtDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    android:paddingVertical="@dimen/_3sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/imgNewsItem"

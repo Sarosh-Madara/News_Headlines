@@ -20,7 +20,7 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class NewsListFragment : Fragment(R.layout.fragment_news_list){
 
-    private lateinit var binding : FragmentNewsListBinding
+    lateinit var binding : FragmentNewsListBinding
 
     private val viewModel by viewModels<NewsListViewModel>()
 
@@ -39,7 +39,7 @@ class NewsListFragment : Fragment(R.layout.fragment_news_list){
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        viewModel.loadTopNews("bbc")
+        viewModel.loadTopNews("techcrunch")
         observeNews()
 
     }
@@ -54,7 +54,7 @@ class NewsListFragment : Fragment(R.layout.fragment_news_list){
                         binding.progressBar.gone()
                         binding.layoutNoNews.gone()
                         binding.listNews.visible()
-                        newsListAdapter = NewsListAdapter(requireContext(),it.newsList.toTypedArray()){
+                        newsListAdapter = NewsListAdapter(requireContext(),viewModel.articleList(it.newsList)){
                             setupNavigation(it)
                         }
                         binding.listNews.adapter = newsListAdapter
